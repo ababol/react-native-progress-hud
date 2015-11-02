@@ -147,7 +147,7 @@ var ProgressHUD = React.createClass({
               isStatic: true
             }}
           >
-            <View style={styles.inner_spinner}>
+            <View style={[styles.inner_spinner, this.props.innerSpinnerStyle]}>
             </View>
           </Image>
         </View>
